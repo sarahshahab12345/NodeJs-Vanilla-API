@@ -1,1 +1,47 @@
-[{"id":"123e4567-e89b-12d3-a456-426614174003","name":"T-shirt","price":19.99,"category":"Clothing","brand":"Nike","color":"Blue","size":"Medium"},{"id":"123e4567-e89b-12d3-a456-426614174004","name":"Smartphone","price":699.99,"category":"Electronics","brand":"Samsung","stock":80},{"id":"123e4567-e89b-12d3-a456-426614174005","name":"Sneakers","price":129.99,"category":"Clothing","brand":"Adidas","color":"Black","size":"9"},{"id":"123e4567-e89b-12d3-a456-426614174006","name":"Watch","price":299.99,"category":"Accessories","brand":"Casio","stock":20},{"id":"123e4567-e89b-12d3-a456-426614174007","name":"Desk Lamp","price":39.99,"category":"Home & Office","brand":"IKEA","stock":30},{"id":"123e4567-e89b-12d3-a456-426614174008","name":"Sunglasses","price":59.99,"category":"Accessories","brand":"Ray-Ban","stock":15},{"name":"I Phone 16","price":999.99,"category":"Personal","brand":"Apple","stock":1,"id":"3e551e46-7b46-49a9-844f-39fe6743fe2d"}]
+[
+  {
+    "title": "Divergent🤺,",
+    "releaseYear": 2010,
+    "director": "Joss Whedon",
+    "boxOffice": "$1.4 billion",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Scarlett Johansson",
+      "Mark Ruffalo",
+      "Chris Hemsworth",
+      "Jeremy Renner"
+    ],
+    "id": "2bc37308-00c4-451c-8c56-c9148ba1bcc1"
+  },
+  {
+    "title": "Alice in Wonderland😸,",
+    "releaseYear": 2010,
+    "director": "Joss Whedon",
+    "boxOffice": "$1.4 billion",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Scarlett Johansson",
+      "Mark Ruffalo",
+      "Chris Hemsworth",
+      "Jeremy Renner"
+    ],
+    "id": "2bc37308-00c4-452c-8c56-c9148ba1bcc2"
+  },
+  {
+    "title": "Monster House 222,",
+    "releaseYear": 2010,
+    "director": "Joss Whedon",
+    "boxOffice": "$1.4 billion",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Scarlett Johansson",
+      "Mark Ruffalo",
+      "Chris Hemsworth",
+      "Jeremy Renner"
+    ],
+    "id": "575e098c-594c-48d5-b195-25f4478a29f2"
+  }
+]

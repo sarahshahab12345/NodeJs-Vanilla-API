@@ -18,17 +18,17 @@
 
 const http = require("http");
 require("dotenv").config();
-const products = require("./Data/products.json");
+const movies = require("./Data/movies.json");
 
 const getreq = require("./Methods/get-request");
 const postreq = require("./Methods/post-request");
 const deletereq = require("./Methods/delete-request");
 const putreq = require("./Methods/put-request");
 
-const port = process.env.port || 5001;
+const port = process.env.port || 8000;
 
 const server = http.createServer((req, res) => {
-  req.products = products;
+  req.movies = movies;
   switch (req.method) {
     case "GET":
       getreq(req, res);
@@ -45,7 +45,8 @@ const server = http.createServer((req, res) => {
     default:
       res.statusCode = 404;
       res.setHeader("Content-Type", "application/json");
-      res.write({ title: "Not Found", message: "Request Not Found" });
+      // The response body needs to be stringified as JSON
+      res.write(JSON.stringify({ title: "Not Found", message: "Request Not Found" }));
       res.end();
   }
 });
